@@ -1,0 +1,14 @@
+{
+  "name": "dilbert_nodejs_scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/finalight/dilbert_nodejs_scraper.git",
+  "author": "finalight <finalight@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "image-downloader": "^3.0.0",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  }
+}
