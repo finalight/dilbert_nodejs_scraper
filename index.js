@@ -4,7 +4,7 @@ const request = require('request')
 const cheerio = require('cheerio')
 const moment = require('moment')
 const downloader = require('image-downloader')
-const start_date = moment("01-01-2014", "DD-MM-YYYY")
+const start_date = moment("10-01-2017", "DD-MM-YYYY")
 const end_date = moment("09-04-2017", "DD-MM-YYYY")
 let current_date = start_date
 let dates_array = []
@@ -36,7 +36,6 @@ while (current_date <= end_date) {
     current_date = moment(current_date).add(1, 'days');
 }
 
-dates_array.map((date) => {
-
+dates_array.forEach((date) => {
     downloadImage(date)
 })
