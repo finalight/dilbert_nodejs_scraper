@@ -5,6 +5,9 @@
   "repository": "https://github.com/finalight/dilbert_nodejs_scraper.git",
   "author": "finalight <finalight@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cheerio": "^0.22.0",
     "image-downloader": "^3.0.0",
